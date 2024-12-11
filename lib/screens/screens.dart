@@ -7,3 +7,4 @@ export 'circle_avatar.dart';
 export 'cupertino_context_menu.dart';
 export 'gradient_app_bar.dart';
 export 'reorderable_list_view.dart';
+export 'sliver_app_bar.dart';

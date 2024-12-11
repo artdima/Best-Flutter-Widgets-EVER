@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'screens/screens.dart';
 
 void main() {
@@ -24,6 +25,7 @@ class MainApp extends StatelessWidget {
         '/AnimatedPadding': (context) => const AnimatedPaddingExample(),
         '/AnimatedPositioned': (context) => const AnimatedPositionedExample(),
         '/AnimatedSize': (context) => const AnimatedSizeExample(),
+        '/SliverAppBar': (context) => const SliverAppBarExample(),
       },
     );
   }
@@ -46,6 +48,7 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/AnimatedPadding', name: 'Animated Padding'),
   BestFlutterWidget(routes: '/AnimatedPositioned', name: 'Animated Positioned'),
   BestFlutterWidget(routes: '/AnimatedSize', name: 'Animated Size'),
+  BestFlutterWidget(routes: '/SliverAppBar', name: 'Sliver AppBar'),
 ];
 
 class HomeAppp extends StatelessWidget {
@@ -66,7 +69,7 @@ class HomeAppp extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, _widgets[index].routes);
             },
-            trailing: Icon(Icons.arrow_forward),
+            trailing: const Icon(Icons.arrow_forward),
           );
         },
       ),
