@@ -10,11 +10,18 @@ class SliverAppBarExample extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           // App Bar
-          const SliverAppBar(
+          SliverAppBar(
+            pinned: true, // Фиксирует AppBar при прокрутке
+            floating: false, // AppBar не появляется при прокрутке вверх
             backgroundColor: Colors.deepPurple,
             foregroundColor: Colors.white,
-            leading: Icon(Icons.menu),
-            title: Text('S L I V E R A P P B A R'),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: const Icon(Icons.arrow_back),
+            ),
+            title: const Text('S L I V E R A P P B A R'),
             expandedHeight: 300,
           ),
 
@@ -26,7 +33,7 @@ class SliverAppBarExample extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 child: Container(
                   height: 400,
-                  color: Colors.deepPurple,
+                  color: Colors.deepPurple[300],
                 ),
               ),
             ),
@@ -39,7 +46,7 @@ class SliverAppBarExample extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 child: Container(
                   height: 400,
-                  color: Colors.deepPurple,
+                  color: Colors.deepPurple[300],
                 ),
               ),
             ),
