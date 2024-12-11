@@ -22,6 +22,7 @@ class MainApp extends StatelessWidget {
         '/CircleAvatar': (context) => const CircleAvatarExample(),
         '/CupContextMenu': (context) => const CupertinoContextMenuExample(),
         '/AnimatedPadding': (context) => const AnimatedPaddingExample(),
+        '/AnimatedPositioned': (context) => const AnimatedPositionedExample(),
       },
     );
   }
@@ -42,6 +43,7 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/CircleAvatar', name: 'Circle Avatar'),
   BestFlutterWidget(routes: '/CupContextMenu', name: 'Cupertino Context Menu'),
   BestFlutterWidget(routes: '/AnimatedPadding', name: 'Animated Padding'),
+  BestFlutterWidget(routes: '/AnimatedPositioned', name: 'Animated Positioned'),
 ];
 
 class HomeAppp extends StatelessWidget {

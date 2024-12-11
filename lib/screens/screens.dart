@@ -1,4 +1,5 @@
 export 'animated_padding.dart';
+export 'animated_positioned.dart';
 export 'bottom_sheet.dart';
 export 'checkbox_list_tile.dart';
 export 'circle_avatar.dart';
