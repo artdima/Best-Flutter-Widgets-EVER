@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/best_flutter_widgets_ever.iml" filepath="$PROJECT_DIR$/best_flutter_widgets_ever.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/best_flutter_widgets_ever_android.iml" filepath="$PROJECT_DIR$/android/best_flutter_widgets_ever_android.iml" />
+    </modules>
+  </component>
+</project>
