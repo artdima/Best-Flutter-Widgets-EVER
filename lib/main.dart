@@ -23,6 +23,7 @@ class MainApp extends StatelessWidget {
         '/CupContextMenu': (context) => const CupertinoContextMenuExample(),
         '/AnimatedPadding': (context) => const AnimatedPaddingExample(),
         '/AnimatedPositioned': (context) => const AnimatedPositionedExample(),
+        '/AnimatedSize': (context) => const AnimatedSizeExample(),
       },
     );
   }
@@ -44,6 +45,7 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/CupContextMenu', name: 'Cupertino Context Menu'),
   BestFlutterWidget(routes: '/AnimatedPadding', name: 'Animated Padding'),
   BestFlutterWidget(routes: '/AnimatedPositioned', name: 'Animated Positioned'),
+  BestFlutterWidget(routes: '/AnimatedSize', name: 'Animated Size'),
 ];
 
 class HomeAppp extends StatelessWidget {
