@@ -15,7 +15,7 @@ class _CheckboxListTileExampleState extends State<CheckboxListTileExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Checkbox List Tile Example'),
+        title: const Text('Checkbox List Tile Example'),
       ),
       body: Center(
         child: CheckboxListTile(

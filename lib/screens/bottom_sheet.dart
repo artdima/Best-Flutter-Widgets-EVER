@@ -12,7 +12,7 @@ class _BottomSheetExampleState extends State<BottomSheetExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bottom Sheet Example'),
+        title: const Text('Bottom Sheet Example'),
       ),
       body: Center(
         child: ElevatedButton(
@@ -34,7 +34,7 @@ class _BottomSheetExampleState extends State<BottomSheetExample> {
                   );
                 });
           },
-          child: Text('Open Bottom Sheet'),
+          child: const Text('Open Bottom Sheet'),
         ),
       ),
     );
