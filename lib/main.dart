@@ -1,4 +1,5 @@
 import 'package:best_flutter_widgets_ever/screens/alert_dialog.dart';
+import 'package:best_flutter_widgets_ever/screens/bottom_nav_bar.dart';
 import 'package:best_flutter_widgets_ever/screens/card.dart';
 import 'package:best_flutter_widgets_ever/screens/cupertino_action_sheet.dart';
 import 'package:best_flutter_widgets_ever/screens/date_picker.dart';
@@ -43,6 +44,7 @@ class MainApp extends StatelessWidget {
         '/PopupMenuButton': (context) => const PopupMenuButtonExample(),
         '/CupertinoActionSheet': (context) =>
             const CupertinoActionSheetExample(),
+        '/BottomNavBar': (context) => const BottomNavBarExample(),
       },
     );
   }
@@ -75,6 +77,7 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/PopupMenuButton', name: 'PopupMenuButton'),
   BestFlutterWidget(
       routes: '/CupertinoActionSheet', name: 'CupertinoActionSheet'),
+  BestFlutterWidget(routes: '/BottomNavBar', name: 'Bottom Nav Bar'),
 ];
 
 class HomeAppp extends StatelessWidget {
