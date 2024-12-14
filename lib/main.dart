@@ -2,6 +2,7 @@ import 'package:best_flutter_widgets_ever/screens/alert_dialog.dart';
 import 'package:best_flutter_widgets_ever/screens/card.dart';
 import 'package:best_flutter_widgets_ever/screens/date_picker.dart';
 import 'package:best_flutter_widgets_ever/screens/date_picker_cupertino.dart';
+import 'package:best_flutter_widgets_ever/screens/dismissible.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/screens.dart';
@@ -33,7 +34,8 @@ class MainApp extends StatelessWidget {
         '/AlertDialog': (context) => const AlertDialogExample(),
         '/Card': (context) => const CardExample(),
         '/DatePicker': (context) => const DatePickerExample(),
-        '/DatePickerCupertino': (context) => const DatePickerCupertinoExample(),
+        '/DatePickerCup': (context) => const DatePickerCupertinoExample(),
+        '/Dismissible': (context) => const DismissibleExample(),
       },
     );
   }
@@ -60,8 +62,8 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/AlertDialog', name: 'Alert Dialog'),
   BestFlutterWidget(routes: '/Card', name: 'Card'),
   BestFlutterWidget(routes: '/DatePicker', name: 'Dat Picker'),
-  BestFlutterWidget(
-      routes: '/DatePickerCupertino', name: 'Date Picker Cupertino'),
+  BestFlutterWidget(routes: '/DatePickerCup', name: 'Date Picker Cupertino'),
+  BestFlutterWidget(routes: '/Dismissible', name: 'Dismissible'),
 ];
 
 class HomeAppp extends StatelessWidget {
