@@ -3,6 +3,7 @@ import 'package:best_flutter_widgets_ever/screens/card.dart';
 import 'package:best_flutter_widgets_ever/screens/date_picker.dart';
 import 'package:best_flutter_widgets_ever/screens/date_picker_cupertino.dart';
 import 'package:best_flutter_widgets_ever/screens/dismissible.dart';
+import 'package:best_flutter_widgets_ever/screens/drawer.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/screens.dart';
@@ -36,6 +37,7 @@ class MainApp extends StatelessWidget {
         '/DatePicker': (context) => const DatePickerExample(),
         '/DatePickerCup': (context) => const DatePickerCupertinoExample(),
         '/Dismissible': (context) => const DismissibleExample(),
+        '/Drawer': (context) => const DrawerExample(),
       },
     );
   }
@@ -64,6 +66,7 @@ final List<BestFlutterWidget> _widgets = [
   BestFlutterWidget(routes: '/DatePicker', name: 'Dat Picker'),
   BestFlutterWidget(routes: '/DatePickerCup', name: 'Date Picker Cupertino'),
   BestFlutterWidget(routes: '/Dismissible', name: 'Dismissible'),
+  BestFlutterWidget(routes: '/Drawer', name: 'Drawer'),
 ];
 
 class HomeAppp extends StatelessWidget {
